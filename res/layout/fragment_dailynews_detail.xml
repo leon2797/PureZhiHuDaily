@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <com.purezhihudaily.ui.widget.SwipeRefreshLayout
+        android:id="@+id/layout_swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_light"
+        android:paddingBottom="3dp" >
+
+        <com.purezhihudaily.ui.widget.SlideWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical" />
+    </com.purezhihudaily.ui.widget.SwipeRefreshLayout>
+
+</FrameLayout>

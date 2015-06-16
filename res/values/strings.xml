@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">纯净日报</string>
+	<string name="collection">收藏夹</string>
+	<string name="cannot_refresh">无法刷新，请检查网络设置！</string>
+	<string name="cannot_refresh_comments">评论为空！</string>
+	<string name="cannot_refresh_collection">收藏夹为空！</string>
+	<string name="unread">未读</string>
+	<string name="collect">收藏</string>
+	<string name="delete">删除</string>
+	<string name="today">今天</string>
+	<string name="comments">评论</string>
+	<string name="forward">前进</string>
+	<string name="back">后退</string>
+	<string name="open">打开</string>
+	<string name="close">关闭</string>
+	<string name="themes">主题日报</string>
+</resources>

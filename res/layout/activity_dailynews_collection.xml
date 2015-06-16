@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_dark" >
+    <com.purezhihudaily.ui.widget.SlideListView
+        android:id="@+id/list_dailynews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:listSelector="@android:color/transparent" />
+    
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" >
+    </android.support.v7.widget.Toolbar>
+    
+    <FrameLayout
+        android:id="@+id/crouton_handle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@null" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.purezhihudaily.ui.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.purezhihudaily.ui.widget.SlideListView
+        android:id="@+id/list_dailynews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:listSelector="@android:color/transparent" />
+    
+</com.purezhihudaily.ui.widget.SwipeRefreshLayout>

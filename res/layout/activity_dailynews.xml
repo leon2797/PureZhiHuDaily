@@ -1,0 +1,68 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/accent_material_dark" >
+        </RelativeLayout>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize" >
+        </android.support.v7.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/crouton_handle"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:background="@null" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/accent_material_dark"
+        android:orientation="vertical" >
+		
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingStart="16dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+            android:text="@string/themes"
+            android:textColor="@android:color/white"
+            android:background="@color/accent_material_light"
+            android:textSize="20sp" >
+        </TextView>
+
+        <ListView
+            android:id="@+id/list_themes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@android:color/transparent"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical" >
+        </ListView>
+        
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

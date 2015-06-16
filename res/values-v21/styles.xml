@@ -1,0 +1,13 @@
+<resources>
+
+    <!--
+        Base application theme for API 21+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 21+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat">
+
+        <!-- API 21 theme customizations can go here. @android:style/Theme.Material.Light -->
+        <item name="android:navigationBarColor">@color/accent_material_light</item>
+    </style>
+
+</resources>
